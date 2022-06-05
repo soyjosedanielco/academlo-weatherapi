@@ -1,0 +1,24 @@
+.CardWeather {
+    background-color: #8080804d;
+    color: #ffffff;
+    padding: 3rem 0;
+    width: 90%;
+    min-width: 360px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    color: #F77E21;
+    margin-top: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (min-width: 992px ) {
+    .CardWeather div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

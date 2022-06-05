@@ -1,0 +1,20 @@
+.InfodWeather {
+    margin-top: 1rem;
+}
+
+.InfodWeather p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px ) {
+    .InfodWeather{
+        margin-top: 0rem;
+        margin-left: 3rem;
+        text-align: end;
+    }
+
+    .InfodWeather p{
+        text-align: left;
+    }
+}
